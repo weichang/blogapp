@@ -43,5 +43,15 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  
+  
+group :development do
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
+end
+
+# 並加上稍後會使用的資料庫gem
+gem 'mysql2'
+
 end
 
